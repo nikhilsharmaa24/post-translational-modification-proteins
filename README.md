@@ -12,12 +12,18 @@ Project Structure
 Functions:
 
 read_n_skip_fun: Reads and prepares CSV files by skipping non-relevant lines.
+
 get_non_zero_positions: Identifies positions of non-zero modification indicators.
+
 add_peptide_positions: Maps peptide sequences within protein sequences to locate modifications.
+
 calculate_modification_summary: Summarizes counts of modifications for R, K, P, and T.
+
 calculate_summary: Computes total amino acid counts for normalization.
+
 raw_to_ratio: Executes the entire workflow, from data preparation to modification ratio calculation and CSV export.
 Data Requirements
+
 Input CSV files should include columns specifying peptides, protein sequences, variable modifications, and modification positions.
 
 How to Use
