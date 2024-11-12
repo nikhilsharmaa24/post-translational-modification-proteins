@@ -29,5 +29,7 @@ Input CSV files should include columns specifying peptides, protein sequences, v
 How to Use
 
 Clone the repository and install dependencies (e.g., tidyverse).
+
 Run raw_to_ratio(<folder_path>), where <folder_path> points to the folder containing input CSV files.
+
 The output will be saved as CSV files in a "ratio" folder within the specified directory.
